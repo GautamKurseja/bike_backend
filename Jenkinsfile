@@ -74,7 +74,6 @@ pipeline {
                             docker run -d \\
                               --name \${IMAGE_NAME} \\
                               --network bike-network \\
-                              -p \${APP_PORT}:\${APP_PORT} \\
                               -e PORT=\${APP_PORT} \\
                               -e DATABASE_URL='\${DATABASE_URL}' \\
                               \${DOCKERHUB_USERNAME}/\${IMAGE_NAME}:latest
