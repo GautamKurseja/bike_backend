@@ -20,7 +20,7 @@ pipeline {
         // The ID of the SSH Username with Private Key credential stored in Jenkins
         DEPLOY_SSH_CREDENTIALS_ID = 'ec2-ssh-key'
         // Public IP or DNS of the remote EC2 instance where Docker is installed
-        DEPLOY_HOST               = '172.31.15.215'
+        DEPLOY_HOST               = '172.31.38.31'
 
         // ==========================================
         // 3. SECURE CONFIGURATION (CREDENTIALS)
