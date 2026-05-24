@@ -29,7 +29,7 @@ module.exports = {
         {
           name: "Mountain Explorer Pro",
           brand: "TrailBlazer",
-          price: 1200.00,
+          price: 8.00,
           description: "A high-performance mountain bike designed for rugged terrain.",
           imageUrl: "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?q=80&w=1000&auto=format&fit=crop",
         },
