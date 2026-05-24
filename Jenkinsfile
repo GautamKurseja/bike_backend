@@ -8,7 +8,7 @@ pipeline {
         // The ID of the username/password credential stored in Jenkins
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-creds'
         // Your Docker Hub username
-        DOCKERHUB_USERNAME       = 'prashik536'
+        DOCKERHUB_USERNAME       = 'gautam8788'
         // The name of the Docker repository
         IMAGE_NAME               = 'bike-backend'
         // Create a unique image tag using the build number
