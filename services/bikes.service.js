@@ -25,7 +25,7 @@ module.exports = {
     const count = await this.adapter.count();
     if (count === 0) {
       this.logger.info("Seeding bikes database...");
-      const sampleBikes = [
+      const sampleBikess = [
         {
           name: "Mountain Explorer Pro",
           brand: "TrailBlazer",
